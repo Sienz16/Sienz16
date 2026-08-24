@@ -117,5 +117,3 @@ motto:     "You bloom wherever you are planted."
 ![Visitor Count](https://komarev.com/ghpvc/?username=Sienz16&color=3BA55D&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=3BA55D&height=120&section=footer" />
