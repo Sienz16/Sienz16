@@ -107,13 +107,3 @@ motto:     "You bloom wherever you are planted."
 
 </div>
 
----
-
-<div align="center">
-
-### *"Nothing happened."*
-**— Roronoa Zoro, after taking all of Luffy's pain**
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Sienz16&color=3BA55D&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
