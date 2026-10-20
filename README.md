@@ -1,64 +1,74 @@
-<img src="./assets/profile-header.svg" width="100%" alt="Mohamad Fazli — Full Stack Developer based in Kota Kinabalu, Sabah, Malaysia" />
+<img src="./assets/profile-header.svg" width="100%" alt="Hey, I’m Fazli! Full stack developer from Sabah, Malaysia. Welcome to my little corner of GitHub." />
 
 <br />
 
-I’m **Fazli**, a full stack developer from Kota Kinabalu, Malaysia. I build web applications and APIs with **TypeScript** and **Elixir**.
+I’m **Mohamad Fazli**, a developer from **Kota Kinabalu, Sabah** 🇲🇾
 
-My projects range from a Ramadan companion for Malaysia to currency exchange systems and tools for inspecting AI gateways. I like working on the details that make an application useful.
+I enjoy making things for the web, figuring out how they work, and learning as I go. Most days that means **TypeScript**, **Elixir**, and a side project that started with “what if…”.
 
-[Explore my repositories ↗](https://github.com/Sienz16?tab=repositories)
+Have a look around! If something here is useful to you, or you spot something I could do better, I’d love to hear it. Open an issue in the project and say hi 👋
 
-<br />
+### A little of what I work with
 
-## Selected work
+<p>
+  <img src="./assets/stack.svg" alt="TypeScript, Elixir, Next.js, React, Tailwind CSS, Node.js, PostgreSQL, Git and Linux" />
+</p>
 
-### 01 / ramadan-ku
-A Ramadan companion built around Malaysia: prayer times, suhoor and iftar information, daily duas, Quran verses, and a Hijri countdown.
+### Lately on GitHub
 
-**TypeScript** · [View repository ↗](https://github.com/Sienz16/ramadan-ku)
+<a href="https://github.com/Sienz16?tab=overview">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sienz16&amp;theme=github_dark" alt="Fazli’s GitHub stats: stars, commits, pull requests, issues and contributions" />
+</a>
+<a href="https://github.com/Sienz16?tab=repositories">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sienz16&amp;theme=github_dark" alt="Languages used across Fazli’s public repositories" />
+</a>
+<a href="https://github.com/Sienz16?tab=overview">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sienz16&amp;theme=github_dark" alt="Fazli’s contribution history on GitHub" />
+</a>
 
----
+<sub>These cards update automatically. Click through to explore my activity or repositories.</sub>
 
-### 02 / SRouter
-A multi-provider AI gateway and LLM proxy router built with Hono, TypeScript, and SQLite WAL.
+### Things I’ve been building
 
-**TypeScript · Hono · SQLite** · [View repository ↗](https://github.com/Sienz16/SRouter)
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🌙 <a href="https://github.com/Sienz16/ramadan-ku">ramadan-ku</a></h3>
+<p>A little companion for Ramadan in Malaysia, with prayer times, suhoor and iftar info, daily duas, and a Hijri countdown.</p>
+<sub>TypeScript</sub>
+</td>
+<td width="50%" valign="top">
+<h3>🔀 <a href="https://github.com/Sienz16/SRouter">SRouter</a></h3>
+<p>One gateway for multiple AI providers. Built with Hono, TypeScript, and SQLite WAL.</p>
+<sub>TypeScript · Hono · SQLite</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>💱 <a href="https://github.com/Sienz16/exchange.io">exchange.io</a></h3>
+<p>A currency exchange web system and API. Some of my work on the backend side of things.</p>
+<sub>TypeScript</sub>
+</td>
+<td width="50%" valign="top">
+<h3>🧮 <a href="https://github.com/Sienz16/Malaysia-Payroll">Malaysia-Payroll</a></h3>
+<p>Exploring Malaysian payroll calculations with Elixir. Still experimental, and still learning along the way.</p>
+<sub>Elixir</sub>
+</td>
+</tr>
+</table>
 
----
+Also tinkering with [**MaskOff**](https://github.com/Sienz16/MaskOff), a tool for investigating model masking in AI gateways.
 
-### 03 / exchange.io
-An API web system for currency exchange.
+[See what else I’m working on →](https://github.com/Sienz16?tab=repositories)
 
-**TypeScript** · [View repository ↗](https://github.com/Sienz16/exchange.io)
+### A hungry little contribution snake 🐍
 
----
-
-### 04 / Malaysia-Payroll
-An experimental API for Malaysian payroll calculations, written in Elixir.
-
-**Elixir** · [View repository ↗](https://github.com/Sienz16/Malaysia-Payroll)
-
-Also: [**MaskOff**](https://github.com/Sienz16/MaskOff) — a tool for detecting model masking in external AI provider gateways.
-
-<br />
-
-## Tools I work with
-
-| | |
-| :--- | :--- |
-| **Languages** | TypeScript, Elixir |
-| **Frontend** | Next.js, React, Tailwind CSS |
-| **Backend & data** | Phoenix, Node.js, PostgreSQL |
-| **Everyday tools** | Git, Linux |
-
-<br />
-
-<details>
-<summary>Off the clock: a snake eats my contributions.</summary>
-<br />
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Snake animation tracing my GitHub contributions" src="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="An animated snake eating its way through my GitHub contribution graph" src="./assets/github-contribution-grid-snake.svg" />
 </picture>
-</details>
+
+---
+
+<p align="center">Thanks for stopping by. Hope you find something worth exploring 🙂</p>
