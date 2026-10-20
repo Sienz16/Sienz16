@@ -1,109 +1,64 @@
-<div align="center">
+<img src="./assets/profile-header.svg" width="100%" alt="Mohamad Fazli — Full Stack Developer based in Kota Kinabalu, Sabah, Malaysia" />
 
-```
-⠉⠉⠰⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡿⣿⡻⠳⡏⠑⢿⡽⣷⣻⣮⡆⡇⡇⣸⣟⡷⡿⠟⣩⠿⠓⠊⣹⣋⠬⠥⣶⠿⠉⢹⡎⠁⢀⠀⠀⠀⠀⠀⠀⠀⢰⡇⠀⠀
-⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠉⢁⠿⡁⠀⡟⠦⣀⣳⡄⠉⠉⠛⠀⠀⠁⠀⠉⠙⠉⠁⠉⠘⠉⠀⠀⠀⠀⠀⠀⠈⠉⠀⠠⠾⠅⠐⠒⢁⠃⢔⡁⠀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀⠙⠢⠵⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠾⠐⡿⢁⡴⡗⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠟⠀⠀⠀⠀⠀⠀⠀⠀⣠⡤⠒⠒⠂⠵⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠀⢠⠇⣠⠄⠀⠀⠀⠀⠀⠀⠀
-⠠⢄⠀⠀⠀⠀⠀⠀⡀⠀⠉⠲⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⢯⡾⠁⢀⡄⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠙⠂⢀⡀⠀⢿⠶⠤⠤⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⢈⡽⠁⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠙⠻⣾⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣜⠏⠀⡀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⢋⡲⠦⣀⡄⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣤⡙⠯⣍⡉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡀⠀⠀⠀⠀⢀⠀⠀⣷⠀⢸⢸⠀⡜⡴⢋⡔⠁⢀⣼⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⠚⣹⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠻⡉⠓⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠢⣜⢦⡀⠀⠀⢸⡄⠀⠘⣄⢻⡜⡀⠟⠁⠀⠀⣠⣾⡧⢚⣿⠆⡠⢄⣢⠤⠀⠀⠀⠀⠀⠀⠀⢀⣠⢾⠁⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⢳⢤⣄⡀⠀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠭⠁⠀⠀⣨⠛⢀⣠⠞⠌⠁⠀⠀⢀⡀⠈⣉⣠⣔⣛⣁⣈⣀⠁⠀⠀⠀⠀⠀⢀⡞⠀⠀⠈⠙⣛⡟⣠⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠶⠭⣉⠉⠁⠀⢳⡰⣄⢀⡏⠁⠀⠀⠀⠀⠀⠀⠀⣼⡡⢺⢿⢁⢶⠶⣤⠾⢷⣦⣯⣷⣹⡍⠀⠀⠀⠀⠈⠉⠉⠉⠑⡄⠠⠞⡼⠀⠀⠈⠙⠛⢊⡝⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠠⣶⠤⠾⠟⠀⠀⠀⠙⠮⢹⠃⠀⠀⢀⡇⠀⠀⠀⠰⠟⠰⠃⣾⢻⠋⠀⠀⠀⠀⢯⢻⠘⠿⡇⠀⠀⠀⠀⠀⢆⠀⠀⠀⡇⠀⠈⠀⠀⠀⠀⢀⣠⠎⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡹⣦⣀⠀⠀⢻⣄⡀⠀⢸⠀⠀⠀⣼⠁⠀⠀⠀⠀⠀⠀⢸⡁⠈⡠⠒⠉⠑⢦⡀⢀⡀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⣿⠀⠀⣠⠃⠀⠀⠉⣱⡟⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠘⣿⣖⠚⠋⡀⠀⢳⡙⠓⢺⠀⠀⠐⡟⠀⠀⠀⠀⠀⠀⠀⢸⠙⠊⠀⠀⠀⠀⠀⠈⠡⣿⡇⠀⢸⡄⠀⠀⠀⢸⣵⠀⠀⡇⠀⠴⢣⠋⠀⠀⠀⣠⠝⠂⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣻⣭⣲⣿⠷⢤⡙⠢⢸⠀⠀⢾⠇⠀⠀⠀⠀⠀⠀⢠⢯⣇⠀⠀⠀⠀⠀⠀⠀⣸⠿⡇⠀⠀⡇⠀⠀⠀⠨⣿⠀⠀⡇⣠⠀⢁⡠⡆⢀⣺⠟⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠉⠶⣄⠀⠀⠀⠈⠳⣼⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠈⢿⡧⡀⠀⠀⠀⢀⡴⡡⠃⢁⠀⠀⢳⠀⠀⠀⠐⠓⠀⢰⣱⠽⠖⠉⠾⠒⠿⣓⠶⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠟⠲⣄⢰⠀⡖⠯⠁⣠⠴⠒⠉⠱⡄⠀⠀⠀⠈⢆⠈⢷⢳⠀⠀⠀⡞⡔⠁⡠⠃⠀⠀⢸⣠⠖⠲⠦⢄⡀⢸⡿⣤⠀⠀⡠⠶⣾⠃⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢰⢦⡈⢻⣏⡇⢾⡄⢠⣠⣀⠀⠀⠛⢦⡀⠀⠀⠀⠑⠼⠐⣦⠀⠼⠸⠤⠊⠀⠀⠀⢀⣼⡇⠀⠀⠀⠀⠀⣰⠀⣟⣾⠞⢠⡖⣼⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡘⣾⡹⣄⡇⣿⠈⢿⠈⢟⠛⠻⢷⣾⣦⣽⣦⣀⠀⠀⠀⢠⢇⠀⡀⡀⠀⠀⠀⣀⡴⢫⠇⡇⠀⠀⠀⠀⣴⡿⢀⠋⣼⣰⣿⡟⡿⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢀⣤⠔⣛⣧⣼⣹⣿⣯⣿⠀⠀⠀⠈⠳⢄⡀⠛⠙⠉⠉⣻⣿⠓⢶⣿⡾⠀⢷⣟⣦⣴⠞⣫⣤⣆⣰⣧⠤⣲⡥⠀⠈⠀⢸⣀⡇⣿⣤⢇⠟⠒⠤⣄⡀⠀⠀⠀⠀
-⠀⠀⢀⣠⠴⠚⠉⠀⢰⠁⣾⣿⣿⣞⣽⠬⡄⠀⠀⠀⠀⠀⠀⢉⡉⠭⢛⣥⠖⠙⣯⡻⣧⠀⣾⢿⡿⢆⣉⣯⢝⡛⢻⠛⠋⠁⠀⠀⠀⠀⣿⢿⣼⠥⣿⡼⠀⠀⠀⠀⠈⠓⠦⣤⡀
-⣠⠔⠊⠁⠀⠀⠀⠀⣿⠀⣿⣿⣧⡈⠻⣇⣇⠀⠀⠀⠀⠀⠀⠀⠉⠉⢩⠁⠀⠀⠈⠁⢻⠀⡇⠚⠀⠀⠈⠉⠉⠁⡆⠀⠀⠀⠀⠀⠀⢠⠇⣼⣋⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉
-⠁⠀⠀⠀⠀⠀⠀⠀⡏⠀⣿⢻⣿⠻⣦⣹⣼⡀⠀⠀⠀⠀⠀⠀⠀⣠⠃⠀⠀⠀⠀⠀⣸⡆⡇⠀⠀⠀⠀⠀⠀⠘⠃⠀⠀⠀⠀⠀⠀⣸⣶⣏⣿⣿⡏⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⣿⢸⣿⠀⠈⠛⣏⡇⠀⠀⠀⠀⠀⠀⠰⡁⠀⠀⠀⠀⠀⢤⣿⣗⣥⡄⠀⠀⠀⠀⠀⠀⠀⠀⠰⣶⡄⠀⢀⡟⣻⢹⢻⠿⡅⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⣿⢸⢸⠀⠀⠀⢻⣿⠀⠀⠀⣠⠚⠚⠡⠤⠤⢤⡤⢀⣈⣃⣠⣿⠤⠤⠤⠄⠐⠒⠛⢻⢣⡄⠘⠁⠀⢘⣿⡏⣸⢸⠀⡇⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⣤⣤⣤⣤⣤⣤⣤⣤⠃⠀⢿⣴⠛⣶⣒⠒⠶⠷⢶⣒⣶⠶⢷⣤⣼⣄⠀⠀⠈⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣰⣼⣴⣿⣶⣖⠲⣾⣿⣶⣿⠶⢶⡓⠷⣶⢶⣶⣶⢶⣖⡶⣶⣖
-⠿⠿⠿⠿⠿⠿⠿⡿⠀⠀⢸⠇⢰⡧⢞⣋⡤⢌⣛⠦⢄⣀⣴⢿⣿⣯⢭⣛⠶⣿⣶⣶⣶⢶⣶⡲⠶⣶⣚⣭⣛⣡⣿⠯⢄⡠⢤⣿⣆⣙⣳⠤⠠⠤⣾⠿⢠⣛⡦⣀⣠⢤⣿⣇⢬
-⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⣾⠤⢼⡤⠭⠬⣭⣤⠬⠀⠴⠥⠄⢨⡽⢧⣤⠉⠁⠀⠀⢉⣀⠈⠀⠉⠁⠀⢈⣉⣹⣇⣈⣁⣀⣀⣈⣉⡙⠁⠈⠭⢤⣠⠀⣀⠈⠈⠉⠀⠈⠉⢁⣀⡈
-⠀⠀⠀⢀⡖⠐⢿⠒⠒⣿⢶⡾⠦⠤⠤⠼⠬⠤⠤⠤⢤⡤⣾⣷⡼⠧⠤⠤⠤⠤⠬⠭⠤⠤⠦⠤⠤⠬⠧⣴⠶⣶⣶⠶⠶⢶⣶⣶⠶⠶⠶⠾⠷⠶⠶⠶⠶⠶⠶⠶⠶⠾⠛⠒
-⠀⠀⠀⢠⠊⠀⠀⢸⠀⠀⡿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣮⠻⣾⣲⢄⠀⠈⠉⠉⠙⠛⠛⠉⠉⣁⠤⠊⣠⢞⡟⠁⠀⢔⣿⣿⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠴⠃⠀⠀⠀⢸⠀⠀⡇⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣧⠈⢻⣿⣮⣯⣭⣭⣤⣭⣭⣭⣥⢤⢶⣿⠗⠃⠀⠀⢈⣿⣿⡟⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⡀⠀⠀⠀⠀⠀⠀⠈⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⢽⣇⠀⠉⠻⣿⣿⣿⣽⣿⢸⣿⣿⡿⠞⠁⠀⠀⠀⠐⠿⢋⡝⢀⢾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠉⠓⢦⣄⡀⠀⠀⠀⡆⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⢠⣿⡆⠀⠈⢹⣦⡀⠀⠈⠙⢾⣼⣛⣹⠖⠋⠀⠀⠀⠀⠀⢀⣆⣀⡎⣀⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-```
+<br />
 
-</div>
+I’m **Fazli**, a full stack developer from Kota Kinabalu, Malaysia. I build web applications and APIs with **TypeScript** and **Elixir**.
 
-## 🧑‍💻 About Me
+My projects range from a Ramadan companion for Malaysia to currency exchange systems and tools for inspecting AI gateways. I like working on the details that make an application useful.
 
-```yaml
-location:  Kota Kinabalu, Sabah, Malaysia
-role:      Full Stack Developer
-focus:     Building clean, functional web apps & APIs
-stack:     TypeScript · Elixir · Next.js · Phoenix
-motto:     "You bloom wherever you are planted."
-```
+[Explore my repositories ↗](https://github.com/Sienz16?tab=repositories)
+
+<br />
+
+## Selected work
+
+### 01 / ramadan-ku
+A Ramadan companion built around Malaysia: prayer times, suhoor and iftar information, daily duas, Quran verses, and a Hijri countdown.
+
+**TypeScript** · [View repository ↗](https://github.com/Sienz16/ramadan-ku)
 
 ---
 
-## 🛠️ Tech Stack
+### 02 / SRouter
+A multi-provider AI gateway and LLM proxy router built with Hono, TypeScript, and SQLite WAL.
 
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
+**TypeScript · Hono · SQLite** · [View repository ↗](https://github.com/Sienz16/SRouter)
 
 ---
 
-## 📊 GitHub Stats
+### 03 / exchange.io
+An API web system for currency exchange.
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sienz16&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3BA55D&icon_color=3BA55D&text_color=c9d1d9" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sienz16&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3BA55D&text_color=c9d1d9" />
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Sienz16&theme=tokyonight&hide_border=true&background=0D1117&ring=3BA55D&fire=3BA55D&currStreakLabel=3BA55D)](https://git.io/streak-stats)
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sienz16&bg_color=0D1117&color=3BA55D&line=3BA55D&point=c9d1d9&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
+**TypeScript** · [View repository ↗](https://github.com/Sienz16/exchange.io)
 
 ---
 
-## 🚀 Featured Projects
+### 04 / Malaysia-Payroll
+An experimental API for Malaysian payroll calculations, written in Elixir.
 
-| Project | Description | Stack |
-|---|---|---|
-| [**ramadan-ku**](https://github.com/Sienz16/ramadan-ku) | Malaysia-focused Ramadan companion — prayer times, suhoor/iftar info, daily duas & live Hijri countdown | TypeScript |
-| [**MaskOff**](https://github.com/Sienz16/MaskOff) | Detects AI masking models from any external provider gateway | TypeScript |
-| [**exchange.io**](https://github.com/Sienz16/exchange.io) | API web system for currency exchange | TypeScript |
-| [**Malaysia-Payroll**](https://github.com/Sienz16/Malaysia-Payroll) | Experimental Malaysia payroll API calculation | Elixir |
+**Elixir** · [View repository ↗](https://github.com/Sienz16/Malaysia-Payroll)
 
----
+Also: [**MaskOff**](https://github.com/Sienz16/MaskOff) — a tool for detecting model masking in external AI provider gateways.
 
-## 🐍 Contribution Graph
+<br />
 
-<div align="center">
+## Tools I work with
 
+| | |
+| :--- | :--- |
+| **Languages** | TypeScript, Elixir |
+| **Frontend** | Next.js, React, Tailwind CSS |
+| **Backend & data** | Phoenix, Node.js, PostgreSQL |
+| **Everyday tools** | Git, Linux |
+
+<br />
+
+<details>
+<summary>Off the clock: a snake eats my contributions.</summary>
+<br />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Snake animation tracing my GitHub contributions" src="https://raw.githubusercontent.com/Sienz16/Sienz16/output/github-contribution-grid-snake.svg" />
 </picture>
-
-</div>
-
+</details>
