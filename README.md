@@ -38,9 +38,9 @@ Have a look around! If something here is useful to you, or you spot something I 
 <sub>TypeScript</sub>
 </td>
 <td width="50%" valign="top">
-<h3>🔀 <a href="https://github.com/Sienz16/SRouter">SRouter</a></h3>
-<p>One gateway for multiple AI providers. Built with Hono, TypeScript, and SQLite WAL.</p>
-<sub>TypeScript · Hono · SQLite</sub>
+<h3>🚗 <a href="https://github.com/Sienz16/uniplay">UniPlay</a></h3>
+<p>An Android Auto receiver for Android head units, over wireless or USB. Still in early alpha — come follow along!</p>
+<sub>Kotlin · Android · Android Auto</sub>
 </td>
 </tr>
 <tr>

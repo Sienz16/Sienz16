@@ -13,7 +13,7 @@
 <text x="40" y="162" font-family="Arial, sans-serif" font-size="57" font-weight="700" letter-spacing="-2" fill="#f0f6fc">hey, I’m Fazli<tspan fill="#7ee787">.</tspan></text>
 <text x="44" y="203" font-family="Arial, sans-serif" font-size="21" fill="#b1bac4">Welcome to my little corner of GitHub.</text>
 <g font-family="monospace" font-size="14"><text x="44" y="251" fill="#7ee787">FULL STACK DEV</text><text x="190" y="251" fill="#484f58">/</text><text x="214" y="251" fill="#b1bac4">SABAH, MALAYSIA</text></g>
-<text x="44" y="304" font-family="monospace" font-size="15" fill="#8b949e">~ $ always learning</text><rect class="cursor" x="229" y="290" width="9" height="17" fill="#7ee787"/>
+<text x="44" y="304" font-family="monospace" font-size="15" fill="#8b949e">~ $ You bloom wherever you are planted.</text><rect class="cursor" x="405" y="290" width="9" height="17" fill="#7ee787"/>
 <g fill="#7ee787"><rect class="bar" x="865" y="153" width="12" height="65" rx="3"/><rect class="bar b2" x="885" y="128" width="12" height="90" rx="3"/><rect class="bar b3" x="905" y="167" width="12" height="51" rx="3"/><rect class="bar b4" x="925" y="143" width="12" height="75" rx="3"/></g>
 <text x="900" y="251" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">work in progress</text>
 </svg>
